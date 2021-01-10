@@ -1,7 +1,7 @@
-# @Author: juan
-# @Date:   2018-12-17T11:25:43+09:00
-# @Last modified by:   juan
-# @Last modified time: 2018-12-17T14:52:33+09:00
+# @Author: jmq
+# @Date:   2021-01-10T18:30:43+09:00
+# @Last modified by:   jmq
+# @Last modified time: 2021-01-10T18:30:43+09:00
 
 ### BASIC ###
 
@@ -10,6 +10,22 @@ alias "edit_profile"="nano $HOME/.bashrc"
 alias "update_profile"="source $HOME/.bashrc"
 alias show_profile="less $HOME/.bashrc"
 
+# my commands:
+alias "edit_mycommands"="nano $HOME/.mycommands"
+alias "update_mycommands"="source $HOME/.mycommands"
+alias show_mycommands="less $HOME/.mycommands"
+
+# my paths:
+alias "edit_mypaths"="nano $HOME/.mypaths"
+alias "update_mypaths"="source $HOME/.mypaths"
+alias show_mypaths="less $HOME/.mypaths"
+
+# my apps:
+alias "edit_myapps"="nano $HOME/.myapps"
+alias "update_myapps"="source $HOME/.myapps"
+alias show_myapps="less $HOME/.myapps"
+
+
 ## bash command
 alias ll='ls -l'
 alias lla="ls -lah"
@@ -17,7 +33,7 @@ alias lsize='ls -l --block-size=M'
 alias rr='rm -rf'
 alias disk='df -h'
 alias size='du -sh'
-aliasalias c='clear'
+alias c='clear'
 alias cls="clear"                   # Clear terminal display
 alias count="ls -1 | wc -l"         # Count files in the current directory
 
@@ -79,48 +95,3 @@ alias open="pcmanfm"               # Open current directory with pcmanfm
 alias sublime='subl &'                     # Open Sublime Text.
 alias edit='subl'                          # Edit a text document with Sublime Text.
 
-## paths
-alias "cdp"="cd ~/Workspace/projects" # Go to workspace projects folder
-alias "cdd"="cd ~/Workspace/data" # Go to workspace data folder
-
-
-
-### EXTRA ###
-
-# PATHS
-#alias python='~/miniconda3/bin/python3.6'
-#export PATH=$PATH:~/.local/bin
-#export PATH=$PATH:/usr/bin/R
-#export PATH=$PATH:/usr/local/bin
-
-# monitoring
-alias "monitor_network"="speedometer -l  -r wlp3s0 -t wlp3s0 -m $(( 1024 * 1024 * 3 / 2 ))"
-alias "list_networks"="ip link show"
-alias "monitor_disk"="nmon"
-alias "monitor_space"="watch --interval=60 df --human-readable /dev/sda2"
-# programs
-alias browser='firefox &'
-alias "gitk"="/usr/bin/gitk &"
-
-#   extract:  Extract most know archives with one command
-#   ---------------------------------------------------------
-extract () {
-    if [ -f $1 ] ; then
-      case $1 in
-        *.tar.bz2)   tar xjf $1     ;;
-        *.tar.gz)    tar xzf $1     ;;
-        *.bz2)       bunzip2 $1     ;;
-        *.rar)       unrar e $1     ;;
-        *.gz)        gunzip $1      ;;
-        *.tar)       tar xf $1      ;;
-        *.tbz2)      tar xjf $1     ;;
-        *.tgz)       tar xzf $1     ;;
-        *.zip)       unzip $1       ;;
-        *.Z)         uncompress $1  ;;
-        *.7z)        7z x $1        ;;
-        *)     echo "'$1' cannot be extracted via extract()" ;;
-         esac
-     else
-         echo "'$1' is not a valid file"
-     fi
-}

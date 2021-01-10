@@ -1,0 +1,14 @@
+# @Author: jmq
+# @Date:   2021-01-10T18:30:43+09:00
+# @Last modified by:   jmq
+# @Last modified time: 2021-01-10T18:30:43+09:00
+
+# PATHS
+#alias python='~/miniconda3/bin/python3.6'
+#export PATH=$PATH:~/.local/bin
+#export PATH=$PATH:/usr/bin/R
+#export PATH=$PATH:/usr/local/bin
+
+# workspace
+alias "cdp"="cd ~/Workspace/projects" # Go to workspace projects folder
+alias "cdd"="cd ~/Workspace/data" # Go to workspace data folder
