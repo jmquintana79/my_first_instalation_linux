@@ -8,18 +8,17 @@ I have included scripts to install libraries / tools of my interest and prepare 
 
 #### commands:
 
-- [] *tree* command.
-- [] *git* and *gitk* commands.
-- [] *make* command.
-- [] *speedometer*: monitoring network performance tool.
-- [] *mnom*: disk (and other metrics) monitor.
+- [x] *tree* command.
+- [x] *git* and *gitk* commands.
+- [x] *make* command.
+- [x] *speedometer*: monitoring network performance tool.
+- [x] *mnom*: disk (and other metrics) monitor.
 
 #### tools:
 
-- [] *terminator*: my favorite terminal.
-- [] *miniconda*: my Python environment. 
-- [] *Sublime Text 3*: my favorite text editor. 
-
+- [x] *terminator*: my favorite terminal.
+- [x] *miniconda*: my Python environment. 
+- [x] *Sublime Text 3*: my favorite text editor. 
 
 
 ## bash profile
