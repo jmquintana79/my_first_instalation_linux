@@ -24,8 +24,4 @@ I have included scripts to install libraries / tools of my interest and prepare 
 
 ## bash profile
 
-Here I am going to store my own bash profile including:
-
-- custom commands.
-- paths of my interest.
-
+Here I am going to store my own bash profile including my *commands*, *paths* and *apps* in 3 different files.
