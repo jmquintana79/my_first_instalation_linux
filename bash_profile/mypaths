@@ -12,3 +12,6 @@
 # workspace
 alias "cdp"="cd ~/Workspace/projects" # Go to workspace projects folder
 alias "cdd"="cd ~/Workspace/data" # Go to workspace data folder
+
+# open in browser
+alias "open_github"="xdg-open https://github.com/"   # github
