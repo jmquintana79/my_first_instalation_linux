@@ -13,6 +13,7 @@ I have included scripts to install libraries / tools of my interest and prepare 
 - [x] *make* command.
 - [x] *speedometer*: monitoring network performance tool.
 - [x] *mnom*: disk (and other metrics) monitor.
+- [x] *curl*: command to open urls.
 
 #### tools:
 

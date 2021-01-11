@@ -8,6 +8,7 @@ sudo apt install make
 sudo apt install make-guile
 sudo apt install speedometer
 sudo apt install nmon
+sudo apt install curl
 sudo apt install terminator
 # install mimiconda
 bash miniconda.sh
