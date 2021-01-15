@@ -10,6 +10,8 @@ sudo apt install speedometer
 sudo apt install nmon
 sudo apt install curl
 sudo apt install terminator
+sudo apt install unrar-free
+sudo apt install unrar
 # install mimiconda
 bash miniconda.sh
 # install sublime text 3
