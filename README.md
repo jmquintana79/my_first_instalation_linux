@@ -21,7 +21,7 @@ I have included scripts to install libraries / tools of my interest and prepare 
 - [x] *terminator*: my favorite terminal.
 - [x] *miniconda*: my Python environment. 
 - [x] *Sublime Text 3*: my favorite text editor. 
-
+- [x] *LibreOffice*: my favorite open source ofimatic suit. 
 
 ## bash profile
 

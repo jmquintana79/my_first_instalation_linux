@@ -16,5 +16,7 @@ sudo apt install unrar
 bash miniconda.sh
 # install sublime text 3
 bash sublime_text.sh
+# install libreoffice
+bash libreoffice.sh
 # close
 echo "run install libraries done"
